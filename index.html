@@ -11,44 +11,72 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2> *open the console to see what's happening*</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <UL>
-          <LI>HTML gives the content structure</LI>
-          <LI>The head contains metadata, which helps the browser render the page correctly</LI>
-          <LI>THE BODY ELEMENT REPRESENTS THE VISUAL CONTENT SHOWN TO THE USER</LI>
-          <LI> *LIST MORE</LI>                          
-          <LI>Metadata contains information about accessibility, search engines and performance</LI>
-          <li>Metadata tags: Title, Style, Base, Link, Meta</li>
+          <LI>HTML gives the content structure.</LI>
+          <LI>The head contains metadata, which helps the browser render the page correctly.</LI>
+          <li>Head also contains: Style, Base, Link, Script.</li>
+          <LI>The body element represents the visual content seen by user.</LI>
+          <LI>Parent element: An element that holds other elements inside.</LI>      
+          <li>Child element: Elements that are nested inside other elements.</li>                    
+          <LI>Metadata contains information about accessibility, search engines and performance.</LI>
+          <li>Metadata tags: Title, Style, Base, Link, Meta.</li>
+          <li>Semantic HTML element: The name of the element describes its content and the role it plays on webpage. Ex: Header, Footer, Main, Section.</li>
+          <li>Non Semantic element: Name of element doesnt describe its content, ex: "Div" or "Span".</li>
+          <li>HTML elements are essentially in a box, consisting of margins outside the element, the element borders, padding and content.</li>
         </UL>
       </section>     
      <section class="card" id="css-section">
       <H2>CSS</H2>
       <UL>
-        <LI> Three ways to add style; inline CSS, Internal CSS and external CSS</LI>
-        <li>Use * to apply a rule to all elements on a visible page</li>
-        <li> Can Combine multiple selectore using a ","</li>
-        <li>Examples of selectors: "img", "*", "header", "footer", "class"</li>
-        <li> Properties: "display", "height", "width", "margin", "box-shadow", "border"</li>
+        <LI>Three ways to add style; inline CSS, Internal CSS and external CSS.</LI>
+        <li>Use * to apply a rule to all elements on a visible page.</li>
+        <li>Can Combine multiple selectore using a ",".</li>
+        <li>Examples of selectors: "img", "*", "header", "footer", "class".</li>
+        <li>Properties: "display", "height", "width", "margin", "box-shadow", "border".</li>
+        <li>Assigning colors: Can be done in semantic referiences "blue" and can refer to hexadecimal code Hex#.</li>
+        <li>Selectors: Img, *, Header, Footer, class.</li>
       </UL>
      </section>
      
      <section class="card" id="git-section">
       <H2>GIT</H2>
       <UL>
-        <LI>ENTER GIT NOTES HERE</LI>
-        <LI>GIT STATUS: CHECKS WHAT BRANCHWE ARE CURRENTLY WORKING</LI>
-        <LI>GIT CHECKOUT -B "BRANCH NAME": CREATES A NEW BRANCH AND SWITCHES TO IT</LI>
-        <LI>*ADDITIONAL GIT NOTES</LI>
+        <LI>Git is a version control system that lets you manage and keep track of each version of your project.</LI>
+        <LI>Git status: Checks what branch you are currently working.</LI>
+        <LI>GIT checkout -b "branch name": Creates a new branch and switches to it.</LI>
+        <li>Git add -A: Adds modifications in the current working branch to the staging branch, the "-A" indicates we want to add all changes. Informs Git changes will be added in next commit.</li>
+        <li>Git add "file name": Add a file as it looks now to your next commit.</li>
+        <li>Git Reset "file name": Unstage a file while retaining the changes in a working directory.</li>
+        <li>Git dif: Difference of what is changed but not staged. Git diff --staged:Difference of what is staged but not yet commited.</li>
+        <li>Git commit -m "description": Commit your staged content as a new commit snapshot.</li>
+        <li>Git clone "Paste copied SSH value": Clones GitHub repositiory.</li>
+        <LI>Git pull origin main: Pull main branch from Github repository.</LI>
+        <li>Git push origin "file name": Push local changes to remote Github branch.</li>
       </UL>
      </section>
      
      <section class="card" id="javascript-section">
       <H2>JAVASCRIPT</H2>
       <UL>
-        <LI>ENTER JAVASCRIT NOTES HERE</LI>
+        <LI>Allows Users to interact with websites.</LI>
+        <li>JavaScript is read top to bottom.</li>
+        <li>Primitive values: Boolean, Null, Undefined, Number type, Bigint type, String type, Symbol type.</li>
+        <li>Objects: A value in memory referenced by a identifier; Data property and Accessor Property.</li>
+        <li>Indexed collections: Arrays and Typed Arrays.</li>
+        <li>Keyed Collections: Maps, Sets, Weakmaps and Weaksets.</li>
+        <LI>Variable: A named container that allows us to store data in our code.</LI>
+        <li>Methods: Log set of instructions that can be executed by a computer.</li>
+        <li>Console Test environment developers use to check their code such as Chrome Dev.</li>
+        <li>Control Flow: The order in which a computer executes code in a script.</li>
+        <li>Condition Statements: Control order in which code is executed or executed at all. Will only execute if the statement meets a condition or is true.</li>
+        <li>Loops: Control order in which code is code is executed. Uses predictable pattern to perfrom a task on all items in a array by allowing a single block of code to repeat.</li>
+        <li>Array: Single Variable that is used to hold a group of data.</li>
+        <li>Index: Unique number that identifies the location of individual data. First item in an Array has a index of 0 and increase by 1 each time.</li>
       </UL>
      </section>
     
@@ -58,5 +86,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
